@@ -84,6 +84,8 @@ public abstract class BaseFragment extends Fragment{
         Log.i(TAG, "setUserVisibleHint: " + "onVisible");
         if (isPapred){
             consumingTimeTask();
+            //加载数据
+            loadData();
         }
     }
     //实现加载数据

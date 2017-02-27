@@ -25,7 +25,7 @@
         <item name="android:padding">5dp</item>
         <item name="android:textSize">23sp</item>
         <item name="android:textColor">#fff</item>
-        <item name="android:background">#44cccccc</item>
+        <item name="android:background">#ffcccccc</item>
     </style>
     <style name="Theme_Transparent" parent="@android:style/Theme.DeviceDefault.Light.Dialog" tools:targetApi="ice_cream_sandwich">
         <item name="android:windowIsTranslucent">true</item>
