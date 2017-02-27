@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ 
+    <TextView
+        style="@style/txt_title_style"
+        android:text="我的物品" />
+    <ImageButton 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/arrow_back_white"
+        android:id="@+id/ib_mygoods_back"/>   
+    </RelativeLayout>
+
+   <com.syz.magicbox.magicbox.view.DropDownMenu
+    android:id="@+id/ddm_mygoodstitle"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:ddmenuTextSize="14sp"
+    app:ddtextUnselectedColor="@color/drop_down_unselected"
+    app:ddtextSelectedColor="@color/drop_down_selected"
+    app:dddividerColor="@color/black"
+    app:ddunderlineColor="@color/black"
+    app:ddmenuSelectedIcon="@drawable/drop_down_selected_icon"
+    app:ddmaskColor="@color/mask_color"
+    app:ddmenuBackgroundColor="@color/white"
+    app:ddmenuUnselectedIcon="@drawable/drop_down_unselected_icon"
+  />
+    
+
+</LinearLayout>
